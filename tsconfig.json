@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "allowJs": false,
+    "baseUrl": "./src",
+    "paths": {
+      "*": [
+        "*",
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "extends": "expo/tsconfig.base"
+}
