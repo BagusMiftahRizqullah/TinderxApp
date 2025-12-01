@@ -58,7 +58,6 @@ src/
   "typecheck": "tsc --noEmit"
 }
 ```
-
 ## Notes
 - Dummy data is defined in the swipe page and can be replaced with an API.
 - Bottom icons during swipe are attached to and layered above the card.
